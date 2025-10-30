@@ -1,0 +1,92 @@
+[
+	{
+		"id": 1,
+		"title": "Classic White Tee",
+		"description": "Ponadczasowa biała koszulka wykonana z organicznej bawełny.",
+		"collection": "Basic Essentials",
+		"gender": "unisex",
+		"image": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f",
+		"style": "casual"
+	},
+	{
+		"id": 2,
+		"title": "Black Streetwear Tee",
+		"description": "Czarna koszulka z minimalistycznym nadrukiem w stylu streetwear.",
+		"collection": "Urban Vibes",
+		"gender": "mężczyzna",
+		"image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab",
+		"style": "NYC"
+	},
+	{
+		"id": 3,
+		"title": "Floral Summer Tee",
+		"description": "Kolorowa koszulka z kwiatowym nadrukiem, idealna na lato.",
+		"collection": "Summer Bloom",
+		"gender": "kobieta",
+		"image": "https://images.unsplash.com/photo-1520974735194-950b6d9d1587",
+		"style": "vintage"
+	},
+	{
+		"id": 4,
+		"title": "Retro Graphic Tee",
+		"description": "Koszulka z retro nadrukiem inspirowana latami 90.",
+		"collection": "Vintage Revival",
+		"gender": "unisex",
+		"image": "https://images.unsplash.com/photo-1520975918318-6cbcff7c93a9",
+		"style": "vintage"
+	},
+	{
+		"id": 5,
+		"title": "Minimal Logo Tee",
+		"description": "Prosty design z małym logo na piersi.",
+		"collection": "Minimal Line",
+		"gender": "mężczyzna",
+		"image": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f",
+		"style": "casual"
+	},
+	{
+		"id": 6,
+		"title": "Oversized Beige Tee",
+		"description": "Luźny fason i neutralny kolor dla codziennego komfortu.",
+		"collection": "Casual Comfort",
+		"gender": "unisex",
+		"image": "https://images.unsplash.com/photo-1516822003754-cca485356ecb",
+		"style": "NYC"
+	},
+	{
+		"id": 7,
+		"title": "Pastel Pink Tee",
+		"description": "Delikatny różowy odcień i miękka tkanina.",
+		"collection": "Soft Tones",
+		"gender": "kobieta",
+		"image": "https://images.unsplash.com/photo-1520975918318-6cbcff7c93a9",
+		"style": "vintage"
+	},
+	{
+		"id": 8,
+		"title": "Sport Performance Tee",
+		"description": "Koszulka z szybkoschnącego materiału, idealna na trening.",
+		"collection": "Active Wear",
+		"gender": "mężczyzna",
+		"image": "https://images.unsplash.com/photo-1556905055-8f358a7a47b2",
+		"style": "casual"
+	},
+	{
+		"id": 9,
+		"title": "Eco Cotton Tee",
+		"description": "Koszulka wykonana w 100% z ekologicznej bawełny.",
+		"collection": "Eco Line",
+		"gender": "unisex",
+		"image": "https://images.unsplash.com/photo-1518806118471-f28b20a1d79d",
+		"style": "casual"
+	},
+	{
+		"id": 10,
+		"title": "Tie-Dye Color Tee",
+		"description": "Kolorowa koszulka w stylu tie-dye – każda sztuka jest unikatowa.",
+		"collection": "Color Splash",
+		"gender": "unisex",
+		"image": "https://images.unsplash.com/photo-1593032457862-9ec8e8d0a7e3",
+		"style": "vintage"
+	}
+]
