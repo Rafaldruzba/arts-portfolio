@@ -4,7 +4,7 @@ const bcrypt = require('bcrypt')
 const db = require('../db')
 const router = express.Router()
 
-const SECRET = 'twoj_super_sekret_jwt' // zmień w .env później
+const SECRET = process.env.SECRET
 
 // 🟢 Logowanie admina
 router.post('/login', async (req, res) => {
@@ -21,6 +21,7 @@ router.post('/login', async (req, res) => {
 		if (user.role !== 'admin') return res.status(403).json({ error: 'Brak dostępu' })
 
 		const token = jwt.sign({ id: user.id, role: user.role }, SECRET, { expiresIn: '2h' })
+		console.log('Zalogowano admina:', user.email)
 		res.json({ token })
 	} catch (err) {
 		console.error(err)

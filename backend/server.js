@@ -19,8 +19,10 @@ app.use(express.json()) // Parsowanie JSON w treści żądań
 // Trasy API
 const { router: authRoutes, verifyToken } = require('./routes/authRoutes')
 const productsRoutes = require('./routes/productsRoutes')
-app.use('/api', authRoutes)
-app.use('/api/products', verifyToken, productsRoutes)
+const adminProductsRoutes = require('./routes/adminProductsRoutes')
+app.use('/api/auth', authRoutes)
+app.use('/api/products', productsRoutes)
+app.use('/api/admin/products', verifyToken, adminProductsRoutes)
 
 // Zwiększ limit wielkości żądania
 app.use(express.json({ limit: '50mb' }))
